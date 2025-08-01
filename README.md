@@ -31,7 +31,6 @@ function find_minimum_bins(items):
 
 ## Approximation Quality
 
-### **Worst-Case Performance:**
 - **Approximation Factor:** Up to **2×** optimal
 - **Reason:** Simple bipartite matching ignores bin capacity constraints
 
