@@ -2,16 +2,6 @@
 
 A Python implementation of the bin packing problem using **S-T maximum flow** approach with **Edmonds-Karp** algorithm.
 
-## 🔄 Algorithm Overview
-
-Solves bin packing by modeling it as a maximum flow problem:
-- **Source** connects to items
-- **Items** connect to bins (if they fit)  
-- **Bins** connect to sink
-- Uses **Edmonds-Karp** for max flow computation
-
-### 📝 Pseudocode
-
 ```pseudocode
 function solve_bin_packing(items, k):
     G = create_flow_network()
